@@ -18,7 +18,7 @@ public class AddressbookService {
 	}
 
 	public AddressBookData getAddressbookDataById(int id) {
-		return booklist.get(id );
+		return booklist.get(id-1);
 	}
 	
 
@@ -39,7 +39,7 @@ public class AddressbookService {
     }
 
 	public AddressBookData deleteAddressbookDataById(int id) {
-		return booklist.remove(id);
+		return booklist.remove(id -1);
 	}
 	}
 

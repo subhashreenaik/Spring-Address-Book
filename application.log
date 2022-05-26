@@ -1,0 +1,158 @@
+2022-05-26 14:38:45.385  INFO 49064 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 49064 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by 91824 in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 14:38:45.386 DEBUG 49064 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 14:38:45.387  INFO 49064 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 14:38:47.270  INFO 49064 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 2.318 seconds (JVM running for 3.298)
+2022-05-26 14:38:47.273  INFO 49064 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 14:38:47.274  INFO 49064 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 14:38:47.275  INFO 49064 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is 91824 
+2022-05-26 14:41:06.871  INFO 35040 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 35040 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 14:41:06.872 DEBUG 35040 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 14:41:06.872  INFO 35040 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 14:41:08.662  WARN 35040 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-26 14:41:08.679  WARN 35040 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-26 14:41:08.729 ERROR 35040 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-05-26 14:41:48.510  INFO 35488 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 35488 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 14:41:48.511 DEBUG 35488 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 14:41:48.512  INFO 35488 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 14:41:50.326  WARN 35488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-26 14:41:50.342  WARN 35488 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-26 14:41:50.384 ERROR 35488 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-05-26 14:42:09.266  INFO 25148 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 25148 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 14:42:09.267 DEBUG 25148 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 14:42:09.268  INFO 25148 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 14:42:11.069  INFO 25148 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 2.234 seconds (JVM running for 3.266)
+2022-05-26 14:42:11.072  INFO 25148 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 14:42:11.072  INFO 25148 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 14:42:11.073  INFO 25148 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is root 
+2022-05-26 14:56:06.422  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 10728 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 14:56:06.423 DEBUG 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 14:56:06.424  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 14:56:08.955  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 3.091 seconds (JVM running for 4.538)
+2022-05-26 14:56:08.962  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 14:56:08.963  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 14:56:08.965  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is root 
+2022-05-26 14:56:34.501  WARN 10728 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-05-26 14:58:16.650  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 10728 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 14:58:16.652 DEBUG 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 14:58:16.652  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 14:58:17.239  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.633 seconds (JVM running for 132.822)
+2022-05-26 14:58:17.243  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 14:58:17.245  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 14:58:17.246  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is root 
+2022-05-26 14:58:30.043  WARN 10728 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.addressbookapp.dto.ResponseDTO> com.bridgelabz.addressbookapp.controller.AddressbookController.createAddressbook(com.bridgelabz.addressbookapp.dto.AddressbookDTO): [Field error in object 'addressbookDTO' on field 'fullName': rejected value [subhashree Patel]; codes [Pattern.addressbookDTO.fullName,Pattern.fullName,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressbookDTO.fullName,fullName]; arguments []; default message [fullName],[Ljavax.validation.constraints.Pattern$Flag;@6d70c5f7,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [Employee name invalid]] ]
+2022-05-26 15:13:40.290  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 10728 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 15:13:40.291 DEBUG 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 15:13:40.291  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 15:13:41.046  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.802 seconds (JVM running for 1056.63)
+2022-05-26 15:13:41.050  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 15:13:41.051  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 15:13:41.051  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is root 
+2022-05-26 15:14:09.964  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 10728 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 15:14:09.964 DEBUG 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 15:14:09.965  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 15:14:10.387  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.462 seconds (JVM running for 1085.969)
+2022-05-26 15:14:10.389  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 15:14:10.389  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 15:14:10.389  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is root 
+2022-05-26 15:18:23.741  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 10728 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 15:18:23.742 DEBUG 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 15:18:23.742  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 15:18:24.132  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.438 seconds (JVM running for 1339.715)
+2022-05-26 15:18:24.135  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 15:18:24.136  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 15:18:24.137  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is root 
+2022-05-26 15:19:28.724  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 17.0.2 on LAPTOP-JOB4074E with PID 10728 (C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp\target\classes started by root in C:\Users\91824\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\AddressBookApp)
+2022-05-26 15:19:28.725 DEBUG 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-26 15:19:28.725  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2022-05-26 15:19:29.180  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 0.495 seconds (JVM running for 1404.764)
+2022-05-26 15:19:29.183  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : logging started
+2022-05-26 15:19:29.183  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll is started in COMMON environment
+2022-05-26 15:19:29.183  INFO 10728 --- [restartedMain] c.b.a.AddressBookAppApplication          : Employee payroll DB user is root 
+2022-05-26 15:21:21.491 ERROR 10728 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1] with root cause
+
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[na:na]
+	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[na:na]
+	at java.base/java.util.ArrayList.remove(ArrayList.java:504) ~[na:na]
+	at com.bridgelabz.addressbookapp.service.AddressbookService.deleteAddressbookDataById(AddressbookService.java:42) ~[classes/:na]
+	at com.bridgelabz.addressbookapp.controller.AddressbookController.deleteEmployeePayrollDataById(AddressbookController.java:62) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-05-26 15:21:54.109  WARN 10728 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
