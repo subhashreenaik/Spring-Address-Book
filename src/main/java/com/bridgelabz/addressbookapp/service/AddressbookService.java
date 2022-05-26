@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.bridgelabz.addressbookapp.dto.AddressbookDTO;
+import com.bridgelabz.addressbookapp.exception.AddressBookException;
 import com.bridgelabz.addressbookapp.model.AddressBookData;
 
 @Service
@@ -17,10 +18,11 @@ public class AddressbookService {
 		return booklist;
 	}
 
-	public AddressBookData getAddressbookDataById(int id) {
-		return booklist.get(id-1);
+	public AddressBookData getAddressbookDataById(int Contact_Id) {
+		 return booklist.stream().filter(bookdata -> bookdata.getId() == Contact_Id)
+				   .findFirst()
+				   .orElseThrow(() ->new AddressBookException("Addressbook not found"));
 	}
-	
 
 	public AddressBookData createAddressbook(AddressbookDTO dto) {
 		AddressBookData book = new AddressBookData(booklist.size()+1,dto);
@@ -29,17 +31,22 @@ public class AddressbookService {
 		
 	}
 
-	public AddressBookData updateById(int bookId, AddressbookDTO dto) {
-		AddressBookData newbook = this.getAddressbookDataById(bookId);
+	public AddressBookData updateById(int Contact_Id, AddressbookDTO dto) {
+		AddressBookData newbook = this.getAddressbookDataById(Contact_Id);
 		newbook.setFullName(dto.fullName);
 		newbook.setState(dto.state);
-		booklist.set(bookId - 1, newbook);
+		newbook.setAddress(dto.address);
+		newbook.setCity(dto.city);
+		newbook.setEmailid(dto.emailid);
+		newbook.setPhoneNumber(dto.phoneNumber);
+		newbook.setZip(dto.zip);
+		booklist.set(Contact_Id - 1, newbook);
 		return newbook;
     	
     }
 
-	public AddressBookData deleteAddressbookDataById(int id) {
-		return booklist.remove(id -1);
+	public AddressBookData deleteAddressbookDataById(int Contact_Id) {
+		return booklist.remove(Contact_Id -1);
 	}
 	}
 
