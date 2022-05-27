@@ -80,7 +80,9 @@ public @Data class AddressBookData {
     public void setId(int id) {
         this.Contact_Id = Contact_Id;
     }
-	
+	public AddressBookData() {
+		
+	}
 
 	
 	@Override
