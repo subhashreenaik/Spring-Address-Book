@@ -23,6 +23,7 @@ import com.bridgelabz.addressbookapp.model.AddressBookData;
 import com.bridgelabz.addressbookapp.service.AddressbookService;
 
 
+
 @RestController
 @RequestMapping("/addressbook")
 public class AddressbookController {
@@ -31,7 +32,7 @@ public class AddressbookController {
 	AddressbookService service;
 	
 	
-	@RequestMapping(value= {"","/","get"})
+	@GetMapping(value= {"","/","get"})
 	public ResponseEntity<ResponseDTO> getAddressbookData(){
 	    List<AddressBookData> bookList =service.getAddressbookData();
 	    ResponseDTO responseDTO = new ResponseDTO("Get Call Success",bookList);
@@ -64,6 +65,22 @@ public class AddressbookController {
 	    return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
 	}
 	
+	@GetMapping("/sortedcity")
+    public ResponseEntity<ResponseDTO> sortAddressbookDataByCity() {
+
+        List<AddressBookData> citylist = null;
+        citylist = service.sortAddressbookDataByCity();
+        ResponseDTO response = new ResponseDTO("Get Call for sortedcity Successful", citylist);
+        return new ResponseEntity<ResponseDTO>(response, HttpStatus.OK);
+    }
+	@GetMapping("/sortedstate")
+    public ResponseEntity<ResponseDTO> sortAddressbookDataByState() {
+
+        List<AddressBookData> statelist = null;
+        statelist = service.sortAddressbookDataByState();
+        ResponseDTO response = new ResponseDTO("Get Call for sortedstate Successful", statelist);
+        return new ResponseEntity<ResponseDTO>(response, HttpStatus.OK);
+    }
 	
 	
 }
