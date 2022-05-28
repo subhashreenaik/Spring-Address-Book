@@ -40,30 +40,10 @@ public @Data class AddressBookData {
 	@Column(name = "zip")
     public String zip;
 
-    public AddressBookData(int Contact_Id,AddressBookData addressbook) {
-        this.Contact_Id= Contact_Id;
-        this.fullName = addressbook.fullName;
-        this.phoneNumber = addressbook.phoneNumber;
-        this.address = addressbook.address;
-        this.city=addressbook.city;
-        this.state = addressbook.state;
-        this.zip=addressbook.zip;
-        this.emailid=addressbook.emailid;
-    }
+    
 
-    public AddressBookData(int Contact_Id,AddressbookDTO addressbookDTO) {
-        this.Contact_Id= Contact_Id;
-        this.fullName = addressbookDTO.fullName;
-        this.phoneNumber = addressbookDTO.phoneNumber;
-        this.address = addressbookDTO.address;
-        this.city = addressbookDTO.city;
-        this.state = addressbookDTO.state;
-        this.zip = addressbookDTO.zip;
-        this.emailid = addressbookDTO.emailid;
-    }
-
-    public AddressBookData(Integer Contact_Id, AddressbookDTO addressbookDTO) {
-        this.Contact_Id= Contact_Id;
+    public AddressBookData( AddressbookDTO addressbookDTO) {
+        
         this.fullName = addressbookDTO.fullName;
         this.phoneNumber = addressbookDTO.phoneNumber;
         this.address = addressbookDTO.address;
@@ -73,21 +53,13 @@ public @Data class AddressBookData {
         this.emailid = addressbookDTO.emailid;
     }
     
-    public int getId() {
-        return Contact_Id;
-    }
 
-    public void setId(int id) {
-        this.Contact_Id = Contact_Id;
-    }
+
+    
 	public AddressBookData() {
 		
 	}
 
 	
-	@Override
-	public String toString() {
-		return "AddressBookData [Contact_Id=" + Contact_Id + ", fullName=" + fullName + ", phoneNumber=" + phoneNumber + ", address="
-				+ address + ", city=" + city + ", state=" + state + ", zip=" + zip + "]";
-	}
+	
 }
